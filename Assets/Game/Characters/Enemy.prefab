@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.5609367
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,23 +18,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -11.654655
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8587764
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.51235056
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 61.641
       objectReference: {fileID: 0}
     - target: {fileID: 474148484212009614, guid: cab915674920642438901bc0a5a5b791, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -101,7 +101,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &6249343079310855782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc0d68d0d39441f9b9883c6196a3f71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  healthPoints: 100
 --- !u!1001 &6218739186532565996
 PrefabInstance:
   m_ObjectHideFlags: 0
